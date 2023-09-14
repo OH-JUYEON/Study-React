@@ -2,16 +2,23 @@
 <a name="readme-top"></a>
 ## React 
 
-#### Framework
+#### React 프로젝트 생성
 
-	뼈대나 근간을 이루는 코드들의 묶음.
-	라이브러리나, 개발자가 작성해놓은 코드파일을 의미하며
-	API란, 여러 라이브러리가 모여있는 패키지(JAR)를 의미한다.
-	프레임워크란, API가 굉장히 많이 모여저서 덩치가 커져있는 것을 의미한다.
-	개발자는 각 개개인의 능력차이가 큰 직종이고, 개발자 구성에 따라 프로젝트 결과 역시
-	큰 차이를 낳는다. 이런 상황을 극복하기 위한 코드의 결과물이 바로 프레임워크이다.
-	프로그램의 기본 흐름이나 구조를 정하고 모든 팀원이 이 구조에 자신의 코드를 추가하는 방식으로
-	개발하게 된다.
+    > workspace 폴더로 이동
+   	> npm install -g yarn
+   	> npm -v
+      	npm : 이 시스템에서 스크립트를 실행할 수 없으므로...
+   	> get-ExecutionPolicy
+      	Restricted : default설정값으로, 스크립트 파일을 실행할 수 없음.
+   	> set-ExecutionPolicy RemoteSigned
+   	> npm install -g yarn
+   	> yarn -v
+   	> yarn global add create-react-app
+      		windows 보안에서 랜섬웨어 설정 끄기
+   	> yarn create react-app app
+   	> cd app
+   	> git clone을 받았다면 yarn add react-scripts
+   	> yarn start
 
   
 #### Framework의 장점
